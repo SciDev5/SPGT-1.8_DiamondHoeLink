@@ -8,7 +8,7 @@ public class Plugin extends JavaPlugin {
 	
 	private boolean running = false;
 	
-	public static final String CHATPREFIX = ""+ChatColor.GOLD+ChatColor.BOLD+"SCENARIO"+ChatColor.GRAY+"»"+ChatColor.RESET+ChatColor.WHITE; 
+	public static final String CHATPREFIX = ""+ChatColor.GOLD+ChatColor.BOLD+"SCENARIO"+ChatColor.GRAY+"» "+ChatColor.RESET+ChatColor.WHITE; 
 	
 	//private TestPlayersTask recurringTask;
 	private BukkitTask recurringTask;
