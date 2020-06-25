@@ -4,4 +4,4 @@ Whoever has the least diamond hoes each minute dies.
 CURRENT ISSUES
 --------------
 
-- Error on starting plugin by command sometimes.
+- Error on starting plugin by command sometimes. (Needs investigation)
