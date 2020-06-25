@@ -18,6 +18,11 @@ public class StartCommand implements CommandExecutor {
 			return false;
 		} else {
 			plugin.setRunning(args[0].equalsIgnoreCase("true"));
+			if (args[0].equalsIgnoreCase("true"))
+				sender.sendMessage(Plugin.CHATPREFIX+"Enabled plugin, the first elimination occurs in one minute.");
+			else
+				sender.sendMessage(Plugin.CHATPREFIX+"Disabled plugin, no one else will die.");
+				
 		}
 		return true;
 	}

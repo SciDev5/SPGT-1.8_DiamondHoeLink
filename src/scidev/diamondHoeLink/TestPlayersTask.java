@@ -42,12 +42,12 @@ public class TestPlayersTask extends BukkitRunnable {
 			if (tn == n) p.add(plrTest);
 		}
 		if (p.size() == 0) {
-			plugin.getServer().broadcastMessage("No more players, stopping.");
+			plugin.getServer().broadcastMessage(Plugin.CHATPREFIX+"No more players, stopping.");
 			plugin.setRunning(false);
 			return;
 		}
 		Player playerToKill = p.get(rand.nextInt(p.size()));
-		plugin.getServer().broadcastMessage(ChatColor.GOLD+playerToKill.getName()+" was the weakest link! ("+n+" diamond hoes)");
+		plugin.getServer().broadcastMessage(Plugin.CHATPREFIX+ChatColor.RED+playerToKill.getName()+" was the weakest link! ("+n+" diamond hoes)");
 		playerToKill.damage(playerToKill.getHealth());
 	}
 
