@@ -1,0 +1,10 @@
+main: scidev.diamondHoeLink.Plugin
+name: DiamondHoeLinkScenario
+version: '1.0'
+api-version: 1.8
+description: Whoever has the least diamond hoes every minute dies.
+author: SciDev
+commands:
+   startscenario_diahoelink:
+      description: "Set plugin enabled or disabled."
+      usage: "USAGE: /startscenario_diahoelink <enabled>"
